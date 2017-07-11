@@ -1,0 +1,101 @@
+body {
+	font-family: Arial, sans-serif;
+	background-image: url(../images/normandia.png);
+	box-sizing: border-box;
+}
+footer {
+	width: 940px;
+	height: 21px;
+	margin: 0% auto 5% auto;
+	background-color: rgb(149, 38, 55);
+	border: 1px solid rgb(149, 38, 55);
+	color: white;
+}
+footer p{
+	margin: 0px;
+	font-style: italic;
+	font-size: 14px;
+}
+footer p#izquierda {
+	float: left;
+}
+footer p#derecha {
+	float: right;
+}
+
+.nombre{
+	color: white;
+	text-decoration: none;
+	font-style: normal;
+	font-size: 16px;
+}
+.espacioVacio{
+	color: rgb(149, 38, 55);
+	text-decoration: none;
+	font-style: normal;
+}
+#principal {
+	width: 940px;
+	margin: 5% auto 0% auto;
+	min-height: 100%;
+}
+
+h3 {
+	color: rgb(149, 38, 55);
+}
+ul {
+	padding-left: 0;
+	list-style: none;
+}
+li {
+	padding: 5px 0;
+}
+li::before {
+	content: "• ";
+	color: rgb(149, 38, 55);
+}
+img {
+	width: 33%;
+	float: left;
+	border: 1px solid rgb(149, 38, 55);
+}
+
+.columnaIzquierda, .columnaDerecha {
+	display: table-cell;
+	margin: 0;
+	vertical-align: top;
+}
+.columnaIzquierda {
+	background: #FFF;
+	padding: 30px;
+	color: #000;
+	border: 1px solid rgb(149, 38, 55);
+	border-bottom: 2px solid rgb(149, 38, 55);
+}
+.columnaDerecha {
+	background-color: rgb(149, 38, 55);
+}
+
+#principal {
+	border: 1px solid rgb(149, 38, 55);
+}
+#juego div {
+	text-align: center;
+	animation: fadein 2s;
+}
+#titulo {
+	padding: 0px 5px;
+	background-color: rgb(149, 38, 55);
+	color: white;
+}
+#fondo {
+	padding: 0px 5px;
+	font-size: 18px;
+	background-color: rgb(149, 38, 55);
+	color: white;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
