@@ -1,0 +1,66 @@
+body {
+	background: #91B3BE;
+	font-family: verdana, sans-serif;
+	color: #5E8A99;
+}
+
+#cuerpo {
+	width: 75%;
+	margin-top: 1%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	border: 1px solid #5E8A99;
+	background: #C2D7DE;
+}
+
+#tortilla {
+	width: 40%;
+	margin-left: 5%;
+	margin-bottom: 3%;
+	margin-right: 5%;
+	float: left;
+}
+
+#informacion {
+	width: 44%;
+	margin-right: 5%;
+	float: right;
+	margin-bottom: 4%;
+}
+
+#ingredientes {
+	width: 44%;
+	margin-right: 5%;
+	float: right;
+}
+
+#preparacion {
+	clear: both;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	font-size: 17px;
+}
+
+.bloque {
+	color: #E8F1F4;
+	font-size: 17px;
+	background: #5E8A99;
+	border: 1px solid #5E8A99;
+}
+
+.bloque h2 {
+	color: #C2D7DE;
+}
+
+a {
+	display: block;
+	margin-bottom: 2%;
+	font-size: 17px;
+}
+
+p {
+	padding-left: 10px;
+	padding-right: 10px;
+}

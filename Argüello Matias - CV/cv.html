@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <charset="utf-8">
+	<title>Curriculum Vitae</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css"/>
+	<link rel="stylesheet" type="text/css" href="css/unslider.css"/>
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/unslider.js" type="text/javascript"></script>
+  </head>
+  
+  <body>
+    
+	
+	<div id="indice">
+	  <img src="foto.png">
+	  <a class="boton" href="#top">Quién soy</a>
+	  <a class="boton" href="#formacion">Formación</a>
+	  <a class="boton" href="#experiencia">Experiencia</a>
+	  <a class="boton" href="#portfolio">Portfolio</a>
+	</div>
+	
+	
+	<div id="contenido">
+	
+	  <div id="quiensoy" class="bloque">
+	    <h2><a name="quiensoy">Quién soy</h2>
+	    <h1>Matias Argüello</h1>
+	    <h3>Front-End Jr.</h3>
+		<div id="caracteristicas">
+	      <p>Nombre: Matias Argüello</p>
+		  <p>Edad: 19</p>
+		  <p>Dirección: Brasil 1546 3° 7°</p>
+		  <p>Teléfono: 1130141916</p>
+		  <p>Email: arguellomatias97@gmail.com</p>
+		</div>
+	    <p>Soy una persona con muchos intereses y gustos diferentes. Estoy terminando la secundaria y tengo ganas de trabajar en un lugar donde pueda aprender y crecer como profesional.</p>
+		<p>Siento que podría integrarme en un equipo de trabajo y soy muy responsable en las tareas que me responden.</p>
+	  </div>
+	  
+	  
+	  <div id="formacion" class="bloque">
+	    <h2><a name="formacion">Formación</h2>
+		<h3>ET 12 DE 1 - Lib. Gral. José de San Martín</h3>
+		<p>Estoy cursando la especialidad de Informática por un interés que tengo en el tema desde mi niñez. Es el area de estudio que más disfruto y tengo planificado estudiar Ingeniería Informática cuando termine.</p>
+		<h3>Aprendé Programando</h3>
+		<p>Actualmente me encuentro cursando Aprendé Programando, un curso estatal con el objetivo de enseñar desarrollo web, específicamente HTML, CSS y Javascript. Es un área de la informática a la cual nunca le presté mucha atención, y ahora lo estoy disfrutando mucho.</p>
+		<h3>Fundación Forge</h3>
+		<p>En la Fundación Forge estoy realizando un curso de capacitación laboral con algunos compañeros del colegio. El curso apunta a formarnos como profesionales, resaltando aspectos como el presentismo, la comunicación, el respeto, y habilidades técnicas. En mi caso, escogí la especialidad de Administración.</p>
+	  </div>
+	  
+	  
+	  <div id="experiencia" class="bloque">
+	    <h2><a name="experiencia">Experiencia</h2>
+		<p>Debido a estar cursando el secundario y dos cursos extracurriculares a la vez, mi experiencia laboral es escaza. </p>
+	  </div>
+	  
+	  
+	  <div id="portfolio" class="bloque">
+	    <h2><a name="portfolio">Portfolio</h2>
+		<div class="slider">
+		  <ul>
+			  <li><a href="receta/receta.html">Receta</a></li>
+			  <li>MMA</li>
+		  </ul>
+		  </div>
+	  </div>
+	  
+	</div>
+	<script>
+	  jQuery(document).ready(function($){
+	    $('.slider').unslider({
+		  arrows: false,
+		  autoplay: true
+		});
+	  });
+	</script>
+	
+  </body>
+</html>
